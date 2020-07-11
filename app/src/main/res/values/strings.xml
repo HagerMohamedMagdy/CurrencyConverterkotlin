@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CurrencyConverter</string>
+    <string name="not_connected">Internet connection lost</string>
+    <string name="base_currency">Base Currency    </string>
+</resources>

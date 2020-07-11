@@ -1,0 +1,18 @@
+package challengue.swensonhe.com.currencyconverter.remote.service
+
+import challengue.swensonhe.com.currencyconverter.model.Rate
+import challengue.swensonhe.com.currencyconverter.model.RateResponse
+import challengue.swensonhe.com.currencyconverter.model.Rates
+import io.reactivex.Observable
+
+/**
+ * Created by Hager Magdy on 2020-07-10.
+ */
+class RateRepositry (private val geteRateService: GeteRateService){
+    fun getLatestRate(): Observable<RateResponse> {
+
+return geteRateService.getLatestRateList()
+
+}
+
+}
