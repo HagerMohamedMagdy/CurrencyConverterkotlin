@@ -6,7 +6,7 @@ import retrofit2.Response
 import retrofit2.http.GET
 
 /**
- * Created by Hager Magdy on 2020-07-10.
+ * Created by Hager Magdy on 2021-05-08.
  */
 interface GeteRateService {
 

@@ -1,7 +1,7 @@
 package challengue.swensonhe.com.currencyconverter.remote.service
 
 /**
- * Created by Hager Magdy on 2020-07-10.
+ * Created by Hager Magdy on 2021-05-08.
  */
 object RestApiConstant {
     const val getLatestRateAPI: String = "latest?access_key="

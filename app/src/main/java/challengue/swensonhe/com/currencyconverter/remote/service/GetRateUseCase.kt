@@ -8,7 +8,7 @@ import io.reactivex.Observable
 
 
 /**
- * Created by Hager Magdy on
+ * Created by Hager Magdy on 2021-05-08
  */
 
 class GetRateUseCase(

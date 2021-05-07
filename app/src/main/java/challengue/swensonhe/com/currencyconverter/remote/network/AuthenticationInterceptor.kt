@@ -4,7 +4,7 @@ import okhttp3.Interceptor
 import okhttp3.Response
 
 /**
- * Created by Hager Magdy on 2020-07-10.
+ * Created by Hager Magdy on 2021-05-08.
  */
 class AuthenticationInterceptor:Interceptor {
     companion object {

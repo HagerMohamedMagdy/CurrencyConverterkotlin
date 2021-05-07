@@ -3,7 +3,9 @@
                                                    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
                                                    android:orientation="vertical"
               android:layout_width="match_parent"
-                                                   android:background="#ffffff"
+                                                   android:background="@drawable/primary_round"
+android:layout_marginEnd="5dp" android:layout_marginStart="5dp"
+        android:layout_margin="5dp"
               android:layout_height="wrap_content">
 
 
@@ -18,11 +20,9 @@
             android:textColor="@color/black"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"
             android:padding="10dip"
             android:textSize="20sp"
-          />
+            app:layout_constraintTop_toTopOf="parent" />
     <TextView
             tools:text="0.0"
             android:textSize="20sp"

@@ -9,7 +9,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
 /**
- * Created by Hager Magdy on 2020-07-10.
+ * Created by Hager Magdy on 2021-05-08.
  */
 object RetrofitClient {
 

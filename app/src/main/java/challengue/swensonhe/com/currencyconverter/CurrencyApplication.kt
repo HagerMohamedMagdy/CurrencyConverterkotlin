@@ -11,7 +11,7 @@ import challengue.swensonhe.com.currencyconverter.utils.ConnectionLiveData
 import challengue.swensonhe.com.currencyconverter.viewModels.CurrencyRateViewModel
 
 /**
- * Created by Hager Magdy on 2020-07-10.
+ * Created by Hager Magdy on 2021-05-08.
  */
 class CurrencyApplication : Application() {
     companion object {
@@ -19,7 +19,7 @@ class CurrencyApplication : Application() {
         private lateinit var getRateUseCase: GetRateUseCase
         private lateinit var rateRepositry: RateRepositry
         lateinit var postExecutionThread: PostExecutionThread
-private lateinit var geteRateService:GeteRateService
+       private lateinit var geteRateService:GeteRateService
     fun injectCurrencyViewModel() = latestRateViewModel
 
 
@@ -27,7 +27,7 @@ private lateinit var geteRateService:GeteRateService
 
     override fun onCreate() {
         super.onCreate()
-     postExecutionThread= PostExecutionThreadImp()
+       postExecutionThread= PostExecutionThreadImp()
         geteRateService = RetrofitClient.retrofit.create(GeteRateService::class.java)
         rateRepositry= RateRepositry(geteRateService)
         getRateUseCase = GetRateUseCase(rateRepositry, postExecutionThread)

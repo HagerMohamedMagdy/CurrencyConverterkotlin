@@ -29,16 +29,17 @@ class MainActivity() : AppCompatActivity() {
 
         latestRateViewModel = CurrencyApplication.injectCurrencyViewModel()
 
-        //Observe for internet con
+        //Observe for internet connection
         ConnectionLiveData
             .observe(this, Observer {
                 if (it.isConnected) {
-
+                    Log.e("On connect","Connect")
                     no_internet.visibility = View.GONE
                     CurrencyRateRecyclerView.visibility = View.VISIBLE
                     base_tv.visibility = View.VISIBLE
                     latestRateViewModel.getLatestRate()
                 } else {
+                    Log.e("On connect","Lost")
                     no_internet.visibility = View.VISIBLE
                     CurrencyRateRecyclerView.visibility = View.GONE
                     base_tv.visibility = View.GONE

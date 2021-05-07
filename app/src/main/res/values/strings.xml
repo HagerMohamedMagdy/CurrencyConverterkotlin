@@ -2,4 +2,11 @@
     <string name="app_name">CurrencyConverter</string>
     <string name="not_connected">Internet connection lost</string>
     <string name="base_currency">Base Currency    </string>
+    <string name="base_currency_logo">EUR   </string>
+    <string name="success_result"> Success Operation !   </string>
+    <string name="is_equal"> is equal to  </string>
+    <string name="convet">Convert</string>
+    <string name="error">Please enter an amount value ! </string>
+
+
 </resources>

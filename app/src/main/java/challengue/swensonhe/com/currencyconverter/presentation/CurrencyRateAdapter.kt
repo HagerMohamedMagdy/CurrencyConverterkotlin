@@ -11,7 +11,7 @@ import challengue.swensonhe.com.currencyconverter.model.Rate
 import kotlinx.android.synthetic.main.list_item.view.*
 
 /**
- * Created by Hager Magdy on 2020-07-10.
+ * Created by Hager Magdy on 2021-05-08.
  */
  class CurrencyRateAdapter(private val itemClick: (itemPosition: Int,rateItem:Rate) -> Unit):
     RecyclerView.Adapter<CurrencyRateAdapter.ViewHolder>() {
